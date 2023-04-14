@@ -37,3 +37,16 @@ anaconda_upload is not set.  Not uploading wheels: []
 conda install anaconda-client
 anaconda upload \
     /home/johnny/miniconda3/envs/builder/conda-bld/linux-64/ngspice-40-0.tar.bz2
+
+## References
+
+https://docs.anaconda.com/anacondaorg/user-guide/tasks/work-with-packages/#uploading-packages
+
+https://github.com/Anaconda-Platform/anaconda-client
+
+https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html
+
+https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
+
+https://docs.conda.io/projects/conda-build/en/stable/user-guide/tutorials/build-pkgs-skeleton.html
+
