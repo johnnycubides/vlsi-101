@@ -1,0 +1,20 @@
+{% set version = "40" %}
+{% set name = "ngspice" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://sourceforg.net/projects/ngspice/files/ng-spice-rework/{{ version }}/{{ name }}-{{ version }}.tar.gz
+
+requirements:
+  build:
+    - flex
+    - readline
+    - make
+    - bison
+    - autoconf
+    - automake
+    - libtool
+
