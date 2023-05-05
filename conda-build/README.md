@@ -2,6 +2,8 @@
 
 BUILDER ENVIROMENT
 
+```bash
+
 conda update -n base -c defaults conda
 
 conda create --name builder
@@ -13,6 +15,11 @@ conda create --name builder
 # To deactivate an active environment, use
 #
 #     $ conda deactivate
+
+```
+Instalando el conda-build
+
+```bash
 
 conda install conda-build
 
@@ -33,10 +40,16 @@ anaconda upload \
     /home/johnny/miniconda3/envs/builder/conda-bld/linux-64/ngspice-40-0.tar.bz2
 anaconda_upload is not set.  Not uploading wheels: []
 
+```
+Instalando el anconda cliente
+
+```bash
 
 conda install anaconda-client
 anaconda upload \
     /home/johnny/miniconda3/envs/builder/conda-bld/linux-64/ngspice-40-0.tar.bz2
+
+```
 
 ## References
 

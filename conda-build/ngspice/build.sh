@@ -8,5 +8,8 @@
 status=$?
 
 
-./configure --with-x --enable-xspice --enable-cider --with-readline=yes --enable-openmp --disable-debug CFLAGS="-m64 -O2" LDFLAGS="-m64 -s"
+mkdir release
+cd release
+../configure --prefix=$CONDA_PREFIX --with-x --enable-xspice --enable-cider --with-readline=yes --enable-openmp --disable-debug CFLAGS="-m64 -O2" LDFLAGS="-m64 -s"
 make -j$(nproc)
+make install
