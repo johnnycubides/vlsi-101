@@ -1,0 +1,13 @@
+{% set version = "1.5.253" %}
+{% set name = "netgen" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://github.com/RTimothyEdwards/netgen/archive/refs/tags/{{ version }}.zip
+
+requirements:
+  build:
+    - make

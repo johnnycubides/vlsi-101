@@ -1,0 +1,15 @@
+{% set version = "8.3.397" %}
+{% set name = "magic" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url:  https://github.com/RTimothyEdwards/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+
+requirements:
+  build:
+    - make
+    - tk
+
