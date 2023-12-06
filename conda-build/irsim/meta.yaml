@@ -1,0 +1,26 @@
+{% set version = "9.7.118" %}
+{% set name = "irsim" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://github.com/RTimothyEdwards/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+
+requirements:
+  build:
+    - make
+    # - tk
+    # - cairo
+    # - ltc
+    # - libx11
+    # - build-essential
+    # - build-essential
+    # - flex
+    # - readline
+    # - bison
+    # - autoconf
+    # - automake
+    # - libtool
+

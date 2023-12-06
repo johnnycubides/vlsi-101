@@ -1,0 +1,25 @@
+{% set version = "1.4.87" %}
+{% set name = "qrouter" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://github.com/RTimothyEdwards/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+
+requirements:
+  build:
+    - make
+    - automake
+    - autoconf
+    - libtool
+    - tk
+    # - cairo
+    # - tcl # No existe
+    # - libx11 # No existe
+    # - build-essential # No existe
+    # - flex
+    # - readline
+    # - bison
+

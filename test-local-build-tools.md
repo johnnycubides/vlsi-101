@@ -37,7 +37,7 @@ En ese lugar he descargado los paquetes necesarios según instrucciones más ade
 cad/  magic/  netgen/  ngspice-39/  ngspice-39.tar.gz  open_pdks/  skywater-pdk/  xschem-3.0.0/  xschem-3.0.0.tar.gz
 ```
 
-## Instalación de spywater
+## Instalación de skywater
 
 ```
 git clone git@github.com:google/skywater-pdk.git
