@@ -1,12 +1,27 @@
 # Conda builder
 
-BUILDER ENVIROMENT
+## Installation steps conda builder
+
+```bash
+conda update -n base -c defaults conda
+conda create --name builder python=3.7
+conda activate builder
+conda install conda-build
+conda install anaconda-client
+```
+
+```bash
+rm -rf ~/miniconda3/envs/builder/conda-bld/
+conda active builder
+```
+
+## Builder enviroment
 
 ```bash
 
 conda update -n base -c defaults conda
 
-conda create --name builder
+conda create --name builder python=3.7
 
 # To activate this environment, use
 #
@@ -16,8 +31,11 @@ conda create --name builder
 #
 #     $ conda deactivate
 
+conda active builder
 ```
-Instalando el conda-build
+
+## Instalando el conda-build
+
 
 ```bash
 
@@ -39,16 +57,22 @@ To remove them, you can run the ```conda build purge``` command
 anaconda upload \
     /home/johnny/miniconda3/envs/builder/conda-bld/linux-64/ngspice-40-0.tar.bz2
 anaconda_upload is not set.  Not uploading wheels: []
-
 ```
-Instalando el anconda cliente
+
+## Instalando el anconda cliente
+
 
 ```bash
-
 conda install anaconda-client
 anaconda upload \
     /home/johnny/miniconda3/envs/builder/conda-bld/linux-64/ngspice-40-0.tar.bz2
+```
 
+## Otros comandos útiles
+
+```bash
+conda info --envs # listar los entornor en conda
+conda remove --name builder --all # remover un entorno
 ```
 
 ## References

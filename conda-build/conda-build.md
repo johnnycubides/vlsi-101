@@ -13,3 +13,7 @@ conda-build magic
 conda-build netgen
 anaconda upload /home/johnny/miniconda3/envs/builder/conda-bld/linux-64/netgen-1.5.253-0.tar.bz2
 
+## Yosys
+
+conda-build yosys
+conda build purge

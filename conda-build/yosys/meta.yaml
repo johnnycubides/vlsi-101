@@ -1,0 +1,17 @@
+{% set version = "0.36" %}
+{% set name = "yosys" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://github.com/YosysHQ/yosys/archive/refs/tags/{{ name }}-{{ version }}.tar.gz
+
+requirements:
+  build:
+    - clang
+    - bison
+    - flex
+    - gawk
+

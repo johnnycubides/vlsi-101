@@ -1,0 +1,19 @@
+{% set version = "3.4.4" %}
+{% set name = "xschem" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://github.com/StefanSchippers/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+
+requirements:
+  build:
+    - flex
+    - bison
+    - make
+    # - autoconf
+    # - automake
+    # - libtool
+    # - readline
