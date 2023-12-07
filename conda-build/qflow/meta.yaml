@@ -1,0 +1,25 @@
+{% set version = "1.4.101" %}
+{% set name = "qflow" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://github.com/RTimothyEdwards/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+
+requirements:
+  build:
+    - make
+    - autoconf
+    # - automake
+    # - libtool
+    # - tk
+    # - cairo
+    # - tcl # No existe
+    # - libx11 # No existe
+    # - build-essential # No existe
+    # - flex
+    # - readline
+    # - bison
+
