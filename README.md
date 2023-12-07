@@ -50,3 +50,4 @@ TODO: Realizar prueba de flujo completo
 * [The OpenLane](https://openlane.readthedocs.io/en/latest/index.html)
 * [OpenROAD](https://theopenroadproject.org/)
 * [tinytapeout](https://tinytapeout.com/)
+* [Conda tools](https://anaconda.org/johnnycubides/repo)
