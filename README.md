@@ -8,6 +8,7 @@ conda activate vlsi
 ```bash
 conda install -c conda-forge libstdcxx-ng
 conda install -c conda-forge ncurses
+conda install -c litex-hub open_pdks.sky130a
 conda install -c johnnycubides netgen
 conda install -c johnnycubides yosys
 conda install -c johnnycubides magic
