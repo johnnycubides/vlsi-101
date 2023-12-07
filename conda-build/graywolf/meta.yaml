@@ -1,0 +1,15 @@
+{% set version = "0.1.6" %}
+{% set name = "graywolf" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: https://github.com/rubund/{{ name }}/archive/refs/tags/{{ version }}.zip
+
+requirements:
+  build:
+    - cmake
+    - make
+    - gsl

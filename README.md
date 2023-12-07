@@ -1,4 +1,4 @@
-
+# Herramientas open source EDA
 
 ## Instalación de miniconda
 
@@ -22,7 +22,6 @@ conda activate vlsi
 
 ## Instalación de herramientas para flujo de diseño
 
-
 ```bash
 conda install -c conda-forge libstdcxx-ng
 conda install -c conda-forge ncurses
@@ -37,6 +36,10 @@ conda install -c johnnycubides irsim
 conda install -c johnnycubides qrouter
 conda install -c johnnycubides qflow
 ```
+
+## Prueba de flujo
+
+TODO: Realizar prueba de flujo completo
 
 ## Referencias
 
