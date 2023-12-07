@@ -9,5 +9,5 @@ status=$?
 
 
 ./configure --prefix=$CONDA_PREFIX
-make -j$(nproc)
+make -j$(nproc) WISH_EXE=wish 
 make install

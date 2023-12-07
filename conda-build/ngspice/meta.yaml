@@ -17,4 +17,8 @@ requirements:
     - autoconf
     - automake
     - libtool
+    - libstdcxx-ng
+  run:
+    - libstdcxx-ng
+    # - libgcc
 
