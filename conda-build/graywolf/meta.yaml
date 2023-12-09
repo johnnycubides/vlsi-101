@@ -12,4 +12,4 @@ requirements:
   build:
     - cmake
     - make
-    - gsl
+    # - gsl # conda install -c conda-forge gsl
