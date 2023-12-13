@@ -23,6 +23,7 @@ conda activate vlsi
 ## Instalación de herramientas para flujo de diseño
 
 ```bash
+conda install -c conda-forge tcsh
 conda install -c conda-forge libstdcxx-ng
 conda install -c conda-forge ncurses
 conda install -c litex-hub open_pdks.sky130a
