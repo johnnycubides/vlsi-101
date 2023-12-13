@@ -34,6 +34,7 @@ conda install -c johnnycubides ngspice
 conda install -c johnnycubides xcircuit
 conda install -c johnnycubides irsim
 conda install -c johnnycubides qrouter
+conda install -c johnnycubides graywolf
 conda install -c johnnycubides qflow
 ```
 
