@@ -26,7 +26,6 @@ conda activate vlsi
 conda install -c conda-forge tcsh
 conda install -c conda-forge libstdcxx-ng
 conda install -c conda-forge ncurses
-conda install -c litex-hub open_pdks.sky130a
 conda install -c johnnycubides netgen
 conda install -c johnnycubides yosys
 conda install -c johnnycubides magic
@@ -37,6 +36,7 @@ conda install -c johnnycubides irsim
 conda install -c johnnycubides qrouter
 conda install -c johnnycubides graywolf
 conda install -c johnnycubides qflow
+conda install -c johnnycubides open_pdks
 ```
 
 ## Prueba de flujo
