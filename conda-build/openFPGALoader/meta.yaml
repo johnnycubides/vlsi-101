@@ -1,0 +1,24 @@
+{% set version = "0.11.0" %}
+{% set name = "openFPGALoader" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+        url: https://github.com/trabucayre/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
+
+dependencies:
+  - conda-forge::libftdi
+  - conda-forge::libstdcxx-ng>=13.2.0
+  - conda-forge::libhidapi 
+
+requirements:
+  build:
+    - libstdcxx-ng
+    - clang
+    - bison
+    - flex
+    - gawk
+    # - libstdcxx-ng
+
