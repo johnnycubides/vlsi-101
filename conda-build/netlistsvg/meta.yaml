@@ -1,0 +1,15 @@
+{% set version = "1.0.2" %}
+{% set name = "netlistsvg" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+# source:
+  # git_url: /home/runner/work/conda-misc/conda-misc/workdir/git-repos/netlistsvg
+
+requirements:
+  build:
+    - nodejs
+  run: 
+    - nodejs
