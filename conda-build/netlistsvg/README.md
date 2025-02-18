@@ -3,6 +3,7 @@
 Creación de netlistsvg
 
 ```bash
+conda activate builder
 rm -rf ~/miniconda3/envs/builder/conda-bld/
 conda-build netlistsvg
 ```

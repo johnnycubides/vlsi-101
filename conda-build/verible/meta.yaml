@@ -1,0 +1,15 @@
+{% set version = "v0.0_3946_g851d3ff4" %}
+{% set name = "verible" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+# source:
+  # git_url: /home/runner/work/conda-misc/conda-misc/workdir/git-repos/netlistsvg
+
+# requirements:
+#   build:
+#     - nodejs
+#   run: 
+#     - nodejs
